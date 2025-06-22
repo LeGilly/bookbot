@@ -32,9 +32,9 @@ def main():
     print("----------- Word Count ----------")
     print(f"Found {word_count} total words")
     print("--------- Character Count -------")
-    for dict in sorted_list:
-        if dict["char"].isalpha() == True:
-            print(f"{dict["char"]}: {dict["num"]}")
+    for char_info in sorted_list:
+        if char_info["char"].isalpha():
+            print(f"{char_info["char"]}: {char_info["num"]}")
     print("============= END ===============")
 
 
