@@ -1,6 +1,4 @@
-from stats import get_word_count
-from stats import get_character_count
-from stats import get_sorted_list
+from stats import *
 import sys
 
 def get_book_text(filepath):
